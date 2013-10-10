@@ -1,4 +1,4 @@
-!exists(":toHaml")
+if !exists(":toHaml")
   command -nargs=1  toHaml  :call s:toHaml(<q-args>, 0)
 endif
 
