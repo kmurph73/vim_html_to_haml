@@ -7,9 +7,9 @@ function s:DoHaml(from, correct)
   if exists(":Rename")
     let s:path = expand("%")
     let s:bar = substitute(s:path, "erb", "haml", "")
-    echom "TESTING TESTING TESTING TESTING"
-    echom s:bar
+    echomsg "TESTING TESTING TESTING TESTING"
+    echomsg s:bar
   else
-    echo "Can't rename file without Rename plugin installed"
+    echomsg "Can't rename file without Rename plugin installed"
   end
 endfunction
