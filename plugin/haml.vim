@@ -12,4 +12,6 @@ function! s:DoHaml()
       echomsg "Can't rename file without vim-eunuch plugin installed"
     endif
   endif
+
+  silent! call repeat#set("\<Plug>DoHaml", v:count)
 endfunction
