@@ -14,5 +14,5 @@ function! s:DoHaml()
   endif
 
   " vim repeat support
-  silent! call repeat#set("\<Plug>DoHaml", v:count)
+  silent! call repeat#set("\<Plug>ConvertToHaml", v:count)
 endfunction
