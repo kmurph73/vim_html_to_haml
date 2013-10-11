@@ -1,12 +1,15 @@
-command! -nargs=1 ConvertHaml  :call s:DoHaml(<q-args>, 0)
+command! -nargs=0 ConvertToHaml  :call s:DoHaml()
 
-function! s:DoHaml(from, correct)
+function! s:DoHaml()
   exe "%!html2haml"
-  if exists(":Move")
-    let s:path = expand("%:p")
-    let s:bar = substitute(s:path, "erb", "haml", "")
-    exe "Move ".s:bar""
-  else
-    echomsg "Can't rename file without vim-enuch plugin installed"
-  end
+
+  let s:path = expand("%:p")
+  if match(s:path,'erb') >= 0
+    if exists(":Move")
+      let s:bar = substitute(s:path, "erb", "haml", "")
+      exe "Move ".s:bar""
+    else
+      echomsg "Can't rename file without vim-eunuch plugin installed"
+    endif
+  endif
 endfunction
