@@ -7,6 +7,6 @@ function! s:DoHaml(from, correct)
     let s:bar = substitute(s:path, "erb", "haml", "")
     exe "Move ".s:bar""
   else
-    echomsg "Can't rename file without Rename plugin installed"
+    echomsg "Can't rename file without vim-enuch plugin installed"
   end
 endfunction
