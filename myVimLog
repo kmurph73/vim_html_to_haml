@@ -1,0 +1,1038 @@
+
+chdir(/usr/share/vim)
+fchdir() to previous dir
+sourcing "$VIM/vimrc"
+finished sourcing $VIM/vimrc
+chdir(/Users/kmurph)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+Searching for "filetype.vim" in "/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim"
+Searching for "/Users/kmurph/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 4: sourcing "/usr/share/vim/vim73/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim"
+Searching for "/Users/kmurph/.vim/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim73/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/after/ftdetect/*.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/ftdetect/*.vim"
+chdir(/usr/local/Cellar/go/1.0.2/misc/vim/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/usr/local/Cellar/go/1.0.2/misc/vim/ftdetect/gofiletype.vim"
+finished sourcing /usr/local/Cellar/go/1.0.2/misc/vim/ftdetect/gofiletype.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /Users/kmurph/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/after/filetype.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/filetype.vim"
+Searching for "ftplugin.vim" in "/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim"
+Searching for "/Users/kmurph/.vim/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim73/ftplugin.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 4: sourcing "/usr/share/vim/vim73/ftplugin.vim"
+finished sourcing /usr/share/vim/vim73/ftplugin.vim
+continuing in /Users/kmurph/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/after/ftplugin.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/ftplugin.vim"
+Searching for "indent.vim" in "/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim"
+Searching for "/Users/kmurph/.vim/indent.vim"
+Searching for "/usr/share/vim/vimfiles/indent.vim"
+Searching for "/usr/share/vim/vim73/indent.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 4: sourcing "/usr/share/vim/vim73/indent.vim"
+finished sourcing /usr/share/vim/vim73/indent.vim
+continuing in /Users/kmurph/.vimrc
+Searching for "/usr/share/vim/vimfiles/after/indent.vim"
+Searching for "/Users/kmurph/.vim/after/indent.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/indent.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 5: sourcing "/usr/share/vim/vim73/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim"
+Searching for "/Users/kmurph/.vim/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim73/syntax/synload.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim73/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim"
+Searching for "/Users/kmurph/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim73/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim
+continuing in /usr/share/vim/vim73/syntax/synload.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/Users/kmurph/.vim/after/syntax/syncolor.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim73/syntax/synload.vim
+continuing in /usr/share/vim/vim73/syntax/syntax.vim
+finished sourcing /usr/share/vim/vim73/syntax/syntax.vim
+continuing in /Users/kmurph/.vimrc
+chdir(/Users/kmurph/.vim)
+fchdir() to previous dir
+line 8: sourcing "/Users/kmurph/.vim/bundles.vim"
+Searching for "ftoff.vim" in "/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim"
+Searching for "/Users/kmurph/.vim/ftoff.vim"
+Searching for "/usr/share/vim/vimfiles/ftoff.vim"
+Searching for "/usr/share/vim/vim73/ftoff.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 2: sourcing "/usr/share/vim/vim73/ftoff.vim"
+finished sourcing /usr/share/vim/vim73/ftoff.vim
+continuing in /Users/kmurph/.vim/bundles.vim
+Searching for "/usr/share/vim/vimfiles/after/ftoff.vim"
+Searching for "/Users/kmurph/.vim/after/ftoff.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/ftoff.vim"
+Searching for "autoload/vundle.vim" in "/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/"
+Searching for "/Users/kmurph/.vim/autoload/vundle.vim"
+Searching for "/usr/share/vim/vimfiles/autoload/vundle.vim"
+Searching for "/usr/share/vim/vim73/autoload/vundle.vim"
+Searching for "/usr/share/vim/vimfiles/after/autoload/vundle.vim"
+Searching for "/Users/kmurph/.vim/after/autoload/vundle.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/autoload/vundle.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/autoload/vundle.vim"
+chdir(/Users/kmurph/.vim/bundle/vundle/autoload)
+fchdir() to previous dir
+line 5: sourcing "/Users/kmurph/.vim/bundle/vundle/autoload/vundle.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vundle/autoload/vundle.vim
+continuing in /Users/kmurph/.vim/bundles.vim
+Searching for "autoload/vundle/config.vim" in "/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/"
+Searching for "/Users/kmurph/.vim/autoload/vundle/config.vim"
+Searching for "/usr/share/vim/vimfiles/autoload/vundle/config.vim"
+Searching for "/usr/share/vim/vim73/autoload/vundle/config.vim"
+Searching for "/usr/share/vim/vimfiles/after/autoload/vundle/config.vim"
+Searching for "/Users/kmurph/.vim/after/autoload/vundle/config.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/autoload/vundle/config.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/autoload/vundle/config.vim"
+chdir(/Users/kmurph/.vim/bundle/vundle/autoload/vundle)
+fchdir() to previous dir
+line 5: sourcing "/Users/kmurph/.vim/bundle/vundle/autoload/vundle/config.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vundle/autoload/vundle/config.vim
+continuing in function vundle#rc
+Searching for "filetype.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundle/after,/Use
+Searching for "/Users/kmurph/.vim/bundle/vundle/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/filetype.vim"
+Searching for "/Users/kmurph/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim73/filetype.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 37: sourcing "/usr/share/vim/vim73/filetype.vim"
+Searching for "ftdetect/*.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundle/after,/U
+Searching for "/Users/kmurph/.vim/bundle/vundle/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/ftdetect/*.vim"
+chdir(/Users/kmurph/.vim/bundle/vim-coffee-script/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/kmurph/.vim/bundle/vim-coffee-script/ftdetect/coffee.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vim-coffee-script/ftdetect/coffee.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+chdir(/Users/kmurph/.vim/bundle/vim-coffee-script/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/kmurph/.vim/bundle/vim-coffee-script/ftdetect/eco.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vim-coffee-script/ftdetect/eco.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/ftdetect/*.vim"
+chdir(/Users/kmurph/.vim/bundle/vim-jst/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/kmurph/.vim/bundle/vim-jst/ftdetect/jst.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vim-jst/ftdetect/jst.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/ftdetect/*.vim"
+chdir(/Users/kmurph/.vim/bundle/vim-yaml/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/kmurph/.vim/bundle/vim-yaml/ftdetect/yaml.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vim-yaml/ftdetect/yaml.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/ftdetect/*.vim"
+chdir(/Users/kmurph/.vim/bundle/Dart/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/kmurph/.vim/bundle/Dart/ftdetect/dart.vim"
+finished sourcing /Users/kmurph/.vim/bundle/Dart/ftdetect/dart.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/ftdetect/*.vim"
+chdir(/Users/kmurph/.vim/bundle/vim-handlebars/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/kmurph/.vim/bundle/vim-handlebars/ftdetect/handlebars.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vim-handlebars/ftdetect/handlebars.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/ftdetect/*.vim"
+chdir(/Users/kmurph/.vim/bundle/vim-toml/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/Users/kmurph/.vim/bundle/vim-toml/ftdetect/toml.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vim-toml/ftdetect/toml.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+Searching for "/Users/kmurph/.vim/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/usr/share/vim/vim73/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/after/ftdetect/*.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/ftdetect/*.vim"
+chdir(/usr/local/Cellar/go/1.0.2/misc/vim/ftdetect)
+fchdir() to previous dir
+line 2476: sourcing "/usr/local/Cellar/go/1.0.2/misc/vim/ftdetect/gofiletype.vim"
+finished sourcing /usr/local/Cellar/go/1.0.2/misc/vim/ftdetect/gofiletype.vim
+continuing in /usr/share/vim/vim73/filetype.vim
+Searching for "/Users/kmurph/.vim/bundle/vundle/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/after/ftdetect/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/after/ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim73/filetype.vim
+continuing in /Users/kmurph/.vim/bundles.vim
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/after/filetype.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/after/filetype.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/after/filetype.vim"
+Searching for "ftplugin.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundle/after,/Use
+Searching for "/Users/kmurph/.vim/bundle/vundle/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim73/ftplugin.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 37: sourcing "/usr/share/vim/vim73/ftplugin.vim"
+finished sourcing /usr/share/vim/vim73/ftplugin.vim
+continuing in /Users/kmurph/.vim/bundles.vim
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/after/ftplugin.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/after/ftplugin.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/after/ftplugin.vim"
+Searching for "indent.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundle/after,/Users
+Searching for "/Users/kmurph/.vim/bundle/vundle/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/indent.vim"
+Searching for "/Users/kmurph/.vim/indent.vim"
+Searching for "/usr/share/vim/vimfiles/indent.vim"
+Searching for "/usr/share/vim/vim73/indent.vim"
+chdir(/usr/share/vim/vim73)
+fchdir() to previous dir
+line 37: sourcing "/usr/share/vim/vim73/indent.vim"
+finished sourcing /usr/share/vim/vim73/indent.vim
+continuing in /Users/kmurph/.vim/bundles.vim
+Searching for "/usr/share/vim/vimfiles/after/indent.vim"
+Searching for "/Users/kmurph/.vim/after/indent.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/after/indent.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/after/indent.vim"
+finished sourcing /Users/kmurph/.vim/bundles.vim
+continuing in /Users/kmurph/.vimrc
+finished sourcing $HOME/.vimrc
+Searching for "plugin/**/*.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundle/after,/
+Searching for "/Users/kmurph/.vim/bundle/vundle/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/vim/plugin/haml.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vim/plugin/haml.vim
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/vim-fugitive/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/vim-fugitive/plugin/fugitive.vim"
+Searching for "autoload/fugitive.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundle/a
+Searching for "/Users/kmurph/.vim/bundle/vundle/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/autoload/fugitive.vim"
+Searching for "/usr/share/vim/vimfiles/autoload/fugitive.vim"
+Searching for "/usr/share/vim/vim73/autoload/fugitive.vim"
+Searching for "/usr/share/vim/vimfiles/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/after/autoload/fugitive.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/after/autoload/fugitive.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/after/autoload/fugitive.vim"
+not found in 'runtimepath': "autoload/fugitive.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vim-fugitive/plugin/fugitive.vim
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/vim-rails/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/vim-rails/plugin/rails.vim"
+finished sourcing /Users/kmurph/.vim/bundle/vim-rails/plugin/rails.vim
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/nerdtree/plugin/NERD_tree.vim"
+Searching for "autoload/nerdtree.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundle/a
+Searching for "/Users/kmurph/.vim/bundle/vundle/autoload/nerdtree.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/autoload/nerdtree.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/autoload/nerdtree.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/autoload/nerdtree.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/autoload/nerdtree.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/autoload)
+fchdir() to previous dir
+line 68: sourcing "/Users/kmurph/.vim/bundle/nerdtree/autoload/nerdtree.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/autoload/nerdtree.vim
+continuing in /Users/kmurph/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+Searching for "lib/nerdtree/path.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundle/a
+Searching for "/Users/kmurph/.vim/bundle/vundle/lib/nerdtree/path.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/lib/nerdtree/path.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/lib/nerdtree/path.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/lib/nerdtree/path.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/path.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 1: sourcing "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/path.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/path.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/menu_controller.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bund
+Searching for "/Users/kmurph/.vim/bundle/vundle/lib/nerdtree/menu_controller.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/lib/nerdtree/menu_controller.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/lib/nerdtree/menu_controller.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/lib/nerdtree/menu_controller.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 2: sourcing "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/menu_item.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vun
+Searching for "/Users/kmurph/.vim/bundle/vundle/lib/nerdtree/menu_item.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/lib/nerdtree/menu_item.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/lib/nerdtree/menu_item.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/lib/nerdtree/menu_item.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 3: sourcing "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/key_map.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundl
+Searching for "/Users/kmurph/.vim/bundle/vundle/lib/nerdtree/key_map.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/lib/nerdtree/key_map.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/lib/nerdtree/key_map.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/lib/nerdtree/key_map.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 4: sourcing "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/bookmark.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vund
+Searching for "/Users/kmurph/.vim/bundle/vundle/lib/nerdtree/bookmark.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/lib/nerdtree/bookmark.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/lib/nerdtree/bookmark.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/lib/nerdtree/bookmark.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 5: sourcing "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/tree_file_node.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundl
+Searching for "/Users/kmurph/.vim/bundle/vundle/lib/nerdtree/tree_file_node.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/lib/nerdtree/tree_file_node.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/lib/nerdtree/tree_file_node.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/lib/nerdtree/tree_file_node.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 6: sourcing "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/tree_dir_node.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle
+Searching for "/Users/kmurph/.vim/bundle/vundle/lib/nerdtree/tree_dir_node.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/lib/nerdtree/tree_dir_node.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/lib/nerdtree/tree_dir_node.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/lib/nerdtree/tree_dir_node.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 7: sourcing "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/opener.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundle
+Searching for "/Users/kmurph/.vim/bundle/vundle/lib/nerdtree/opener.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/lib/nerdtree/opener.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/lib/nerdtree/opener.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/lib/nerdtree/opener.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/opener.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 8: sourcing "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/opener.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/opener.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "lib/nerdtree/creator.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundl
+Searching for "/Users/kmurph/.vim/bundle/vundle/lib/nerdtree/creator.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/lib/nerdtree/creator.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/lib/nerdtree/creator.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/lib/nerdtree/creator.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/creator.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 9: sourcing "/Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/creator.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/lib/nerdtree/creator.vim
+continuing in function nerdtree#loadClassFiles
+Searching for "nerdtree_plugin/**/*.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundl
+Searching for "/Users/kmurph/.vim/bundle/vundle/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/nerdtree_plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/nerdtree/nerdtree_plugin)
+fchdir() to previous dir
+line 5: sourcing "/Users/kmurph/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+continuing in function nerdtree#postSourceActions
+chdir(/Users/kmurph/.vim/bundle/nerdtree/nerdtree_plugin)
+fchdir() to previous dir
+line 5: sourcing "/Users/kmurph/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+continuing in function nerdtree#postSourceActions
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/nerdtree_plugin/**/*.vim"
+Searching for "/usr/share/vim/vimfiles/nerdtree_plugin/**/*.vim"
+Searching for "/usr/share/vim/vim73/nerdtree_plugin/**/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/after/nerdtree_plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/after/nerdtree_plugin/**/*.vim"
+finished sourcing /Users/kmurph/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/rails.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/rails.vim/plugin/rails.vim"
+finished sourcing /Users/kmurph/.vim/bundle/rails.vim/plugin/rails.vim
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/ctrlp.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim"
+Searching for "autoload/ctrlp/mrufiles.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vu
+Searching for "/Users/kmurph/.vim/bundle/vundle/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/autoload/ctrlp/mrufiles.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim"
+chdir(/Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp)
+fchdir() to previous dir
+line 43: sourcing "/Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim"
+finished sourcing /Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim
+continuing in /Users/kmurph/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim
+finished sourcing /Users/kmurph/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim
+Searching for "/Users/kmurph/.vim/bundle/Rename/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/Rename/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/Rename/plugin/Rename.vim"
+finished sourcing /Users/kmurph/.vim/bundle/Rename/plugin/Rename.vim
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/YankRing.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/YankRing.vim/plugin/yankring.vim"
+finished sourcing /Users/kmurph/.vim/bundle/YankRing.vim/plugin/yankring.vim
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/surround.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/surround.vim/plugin/surround.vim"
+finished sourcing /Users/kmurph/.vim/bundle/surround.vim/plugin/surround.vim
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/ack.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/ack.vim/plugin/ack.vim"
+finished sourcing /Users/kmurph/.vim/bundle/ack.vim/plugin/ack.vim
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/plugin/**/*.vim"
+chdir(/Users/kmurph/.vim/bundle/greplace.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/greplace.vim/plugin/greplace.vim"
+finished sourcing /Users/kmurph/.vim/bundle/greplace.vim/plugin/greplace.vim
+Searching for "/Users/kmurph/.vim/bundle/Dart/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/plugin/**/*.vim"
+Searching for "/usr/share/vim/vimfiles/plugin/**/*.vim"
+Searching for "/usr/share/vim/vim73/plugin/**/*.vim"
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/getscriptPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/getscriptPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/gzip.vim"
+finished sourcing /usr/share/vim/vim73/plugin/gzip.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/matchparen.vim"
+finished sourcing /usr/share/vim/vim73/plugin/matchparen.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/netrwPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/rrhelper.vim"
+finished sourcing /usr/share/vim/vim73/plugin/rrhelper.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/spellfile.vim"
+finished sourcing /usr/share/vim/vim73/plugin/spellfile.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/tarPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/tarPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/tohtml.vim"
+finished sourcing /usr/share/vim/vim73/plugin/tohtml.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/vimballPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/vimballPlugin.vim
+chdir(/usr/share/vim/vim73/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim73/plugin/zipPlugin.vim"
+finished sourcing /usr/share/vim/vim73/plugin/zipPlugin.vim
+Searching for "/usr/share/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/after/plugin/**/*.vim"
+Searching for "/usr/local/Cellar/go/1.0.2/misc/vim/plugin/**/*.vim"
+chdir(/usr/local/Cellar/go/1.0.2/misc/vim/plugin)
+fchdir() to previous dir
+sourcing "/usr/local/Cellar/go/1.0.2/misc/vim/plugin/godoc.vim"
+finished sourcing /usr/local/Cellar/go/1.0.2/misc/vim/plugin/godoc.vim
+Searching for "/Users/kmurph/.vim/bundle/vundle/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vundle/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/Rename/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/YankRing.vim/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-repeat/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/surround.vim/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-jst/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/ack.vim/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/repeat.vim/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-yaml/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/greplace.vim/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/Dart/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-handlebars/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/plist.vim/after/plugin/**/*.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-toml/after/plugin/**/*.vim"
+Reading viminfo file "/Users/kmurph/.viminfo" info oldfiles
+Executing BufWinEnter Auto commands for "*"
+autocommand if s:diff_window_count() == 1 && &diff && getbufvar(+expand('<abuf>'), 'git_dir') !=# '' | call s:diffoff() | endif
+
+Executing BufEnter Auto commands for "*"
+autocommand if exists("b:rails_root")|silent doau User BufEnterRails|endif
+
+Executing BufEnter Auto commands for "*"
+autocommand call nerdtree#checkForBrowse(expand("<amatch>"))
+
+Executing BufEnter Auto commands for "*"
+autocommand cal s:record(expand('<abuf>', 1))
+
+Executing BufEnter Auto commands for "*"
+autocommand silent! call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand if expand('<amatch>')==''|call fugitive#detect(getcwd())|endif
+
+Executing User Auto commands for "Fugitive"
+autocommand call s:define_commands()
+
+Executing User Auto commands for "Fugitive"
+autocommand if s:buffer().commit() =~# '^0\=$' | exe "command! -buffer -bar -bang -nargs=1 -complete=customlist,s:MoveComplete Gmove :execute s:Move(<bang>0,<q-args>)" | exe "command! -buffer -bar -bang Gremove :execute s:Remove(<bang>0)" | endif
+
+Executing User Auto commands for "Fugitive"
+autocommand if s:buffer().type('file', 'blob') | exe "command! -buffer -bar -bang -range=0 -nargs=* Gblame :execute s:Blame(<bang>0,<line1>,<line2>,<count>,[<f-args>])" | endif
+
+Executing User Auto commands for "Fugitive"
+autocommand if &filetype =~# '^git\%(commit\)\=$' && &foldtext ==# 'foldtext()' |    set foldtext=fugitive#foldtext() | endif
+
+Executing VimEnter Auto commands for "*"
+autocommand if expand("<amatch>") == "" && !exists("b:rails_root") | call s:Detect(getcwd()) | endif | if exists("b:rails_root") | silent doau User BufEnterRails | endif
+
+Executing VimEnter Auto commands for "*"
+autocommand call s:abolish_setup()
+
+Executing VimEnter Auto commands for "*"
+autocommand silent! autocmd! FileExplorer
+
+autocommand call nerdtree#checkForBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand :if has('clipboard') | call <SID>YRFocusGained() | endif
+
+
+Searching for "autoload/ctrlp.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundle/afte
+Searching for "/Users/kmurph/.vim/bundle/vundle/autoload/ctrlp.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/autoload/ctrlp.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/autoload/ctrlp.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/autoload/ctrlp.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/autoload/ctrlp.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/autoload/ctrlp.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/autoload/ctrlp.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim"
+chdir(/Users/kmurph/.vim/bundle/ctrlp.vim/autoload)
+fchdir() to previous dir
+sourcing "/Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim"
+finished sourcing /Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim
+Searching for "autoload/ctrlp/utils.vim" in "/Users/kmurph/.vim/bundle/vundle,/Users/kmurph/.vim/bundle/vim,/Users/kmurph/.vim/bundle/vim-fugitive,/Users/kmurph/.vim/bundle/vim-rails,/Users/kmurph/.vim/bundle/nerdtree,/Users/kmurph/.vim/bundle/vim-coffee-script,/Users/kmurph/.vim/bundle/rails.vim,/Users/kmurph/.vim/bundle/ctrlp.vim,/Users/kmurph/.vim/bundle/Rename,/Users/kmurph/.vim/bundle/YankRing.vim,/Users/kmurph/.vim/bundle/vim-repeat,/Users/kmurph/.vim/bundle/surround.vim,/Users/kmurph/.vim/bundle/vim-jst,/Users/kmurph/.vim/bundle/ack.vim,/Users/kmurph/.vim/bundle/repeat.vim,/Users/kmurph/.vim/bundle/vim-yaml,/Users/kmurph/.vim/bundle/greplace.vim,/Users/kmurph/.vim/bundle/Dart,/Users/kmurph/.vim/bundle/vim-handlebars,/Users/kmurph/.vim/bundle/plist.vim,/Users/kmurph/.vim/bundle/vim-toml,/Users/kmurph/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/Users/kmurph/.vim/after,/usr/local/Cellar/go/1.0.2/misc/vim,/Users/kmurph/.vim/bundle/vundle/,/Users/kmurph/.vim/bundle/vundl
+Searching for "/Users/kmurph/.vim/bundle/vundle/autoload/ctrlp/utils.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim/autoload/ctrlp/utils.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-fugitive/autoload/ctrlp/utils.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-rails/autoload/ctrlp/utils.vim"
+Searching for "/Users/kmurph/.vim/bundle/nerdtree/autoload/ctrlp/utils.vim"
+Searching for "/Users/kmurph/.vim/bundle/vim-coffee-script/autoload/ctrlp/utils.vim"
+Searching for "/Users/kmurph/.vim/bundle/rails.vim/autoload/ctrlp/utils.vim"
+Searching for "/Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim"
+chdir(/Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp)
+fchdir() to previous dir
+line 38: sourcing "/Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim"
+finished sourcing /Users/kmurph/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim
+continuing in function ctrlp#init..<SNR>56_Reset..<SNR>56_opts
+chdir(/Users/kmurph/code/vim)
+fchdir() to previous dir
+Reading viminfo file "/Users/kmurph/.viminfo" marks>>> _
+>>> [_
+>>> [>_
+>>> [>0_
+>>> [>0;_
+>>> [>0;9_
+>>> [>0;95_
+>>> [>0;95;_
+>>> [>0;95;c_
+
+Executing BufLeave Auto commands for "*"
+autocommand if exists("b:rails_root")|silent doau User BufLeaveRails|endif
+
+Executing BufLeave Auto commands for "*"
+autocommand cal s:record(expand('<abuf>', 1))
+
+Executing BufLeave Auto commands for "ControlP"
+autocommand noa cal s:Close()
+
+Executing WinLeave Auto commands for "*"
+autocommand :call <SID>YRWinLeave()
+
+Executing BufEnter Auto commands for "*"
+autocommand if exists("b:rails_root")|silent doau User BufEnterRails|endif
+
+Executing BufEnter Auto commands for "*"
+autocommand call nerdtree#checkForBrowse(expand("<amatch>"))
+
+Executing BufEnter Auto commands for "*"
+autocommand cal s:record(expand('<abuf>', 1))
+
+
+E471: Argument required
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/0 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/1 2>&1"
+TESTING TESTING TESTING TESTING
+
+
+/Users/kmurph/code/vim
+
+E492: Not an editor command: cwd
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+finished sourcing plugin/haml.vim
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/2 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/3 2>&1"
+TESTING TESTING TESTING TESTING
+
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+Error detected while processing /Users/kmurph/code/vim/plugin/haml.vim:
+line    1:
+E174: Command already exists: add ! to replace it
+line   13:
+E122: Function <SNR>58_DoHaml already exists, add ! to replace it
+                                                                 finished sourcing plugin/haml.vim
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+Error detected while processing /Users/kmurph/code/vim/plugin/haml.vim:
+line    1:
+E174: Command already exists: add ! to replace it
+line    3:
+E124: Missing '(': s:DoHaml!(from, correct)
+                                           Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/4 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/5 2>&1"
+no test
+
+line   13:
+E193: :endfunction not inside a function
+                                        finished sourcing plugin/haml.vim
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+Error detected while processing /Users/kmurph/code/vim/plugin/haml.vim:
+line    1:
+E182: Invalid command name
+line   13:
+E122: Function <SNR>58_DoHaml already exists, add ! to replace it
+                                                                 finished sourcing plugin/haml.vim
+
+E172: Only one file name allowed
+
+E172: Only one file name allowed
+
+Type  :quit<Enter>  to exit Vim
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+Error detected while processing /Users/kmurph/code/vim/plugin/haml.vim:
+line    1:
+E174: Command already exists: add ! to replace it
+line    3:
+E124: Missing '(': s:DoHaml!(from, correct)
+                                           Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/6 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/7 2>&1"
+no test
+
+line   13:
+E193: :endfunction not inside a function
+                                        finished sourcing plugin/haml.vim
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+Error detected while processing /Users/kmurph/code/vim/plugin/haml.vim:
+line    1:
+E174: Command already exists: add ! to replace it
+line    3:
+E488: Trailing characters
+                         finished sourcing plugin/haml.vim
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+finished sourcing plugin/haml.vim
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/8 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/9 2>&1"
+no test
+
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+finished sourcing plugin/haml.vim
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+finished sourcing plugin/haml.vim
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/10 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/11 2>&1"
+no test
+
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+finished sourcing plugin/haml.vim
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/12 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/13 2>&1"
+no test
+
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+finished sourcing plugin/haml.vim
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/14 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/15 2>&1"
+no test
+
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+finished sourcing plugin/haml.vim
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/16 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/17 2>&1"
+test
+
+
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/18 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/19 2>&1"
+test
+
+
+/Users/kmurph/code/vim
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/20 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/21 2>&1"
+test
+
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+finished sourcing plugin/haml.vim
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/22 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/23 2>&1"
+test
+0
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+finished sourcing plugin/haml.vim
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/24 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/25 2>&1"
+test
+
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+finished sourcing plugin/haml.vim
+
+Calling shell to execute: "(html2haml) < /var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/26 >/var/folders/2_/nzmrvj95117_3zjcr0gc889c0000gn/T/vR5b9An/27 2>&1"
+test
+
+
+chdir(plugin)
+fchdir() to previous dir
+sourcing "plugin/haml.vim"
+fin
