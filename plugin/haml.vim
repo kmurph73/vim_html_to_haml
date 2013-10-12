@@ -1,3 +1,9 @@
+if exists("g:loaded_convert_to_haml") || &cp || v:version < 700
+  finish
+endif
+
+let g:loaded_convert_to_haml = 1
+
 command! -nargs=0 ConvertToHaml  :call s:DoHaml()
 
 function! s:DoHaml()
@@ -13,6 +19,6 @@ function! s:DoHaml()
     endif
   endif
 
-  " vim repeat support
-  silent! call repeat#set("\<Plug>ConvertToHaml", v:count)
+  " vim repeat support, except not
+  silent! call repeat#set("\<Plug>DoHaml")
 endfunction
