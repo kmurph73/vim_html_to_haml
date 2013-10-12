@@ -19,6 +19,7 @@ function! s:DoHaml()
     endif
   endif
 
-  " vim repeat support, except not
-  silent! call repeat#set("\<Plug>DoHaml")
+  " vim repeat support
+  " doesn't work
+  " silent! call repeat#set("\<Plug>DoHaml")
 endfunction
