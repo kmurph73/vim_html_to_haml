@@ -7,7 +7,7 @@ let g:loaded_convert_to_haml = 1
 command! -nargs=0 ConvertToHaml  :call s:DoHaml()
 
 function! s:DoHaml()
-  exe "%!html2haml"
+  exe "%!html2haml -e"
 
   let s:path = expand("%:p")
   if match(s:path,'erb') >= 0
