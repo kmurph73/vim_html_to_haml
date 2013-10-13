@@ -1,5 +1,15 @@
 Convert your html to haml
 
-if the file is erb, it will be renamed to haml
+if 'erb' is in the filename, it will be gsubbed with 'haml'
 
-just
+Just execute
+
+    :ConvertToHaml
+
+while on the buffer you want to convert to haml.
+
+TODO:
+
+* vim-repeat support
+* convert multiple files to haml
+* get feedback on code? (first Vim plugin)
