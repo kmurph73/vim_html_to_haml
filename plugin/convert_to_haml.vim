@@ -4,7 +4,7 @@
 "
 "let g:loaded_convert_to_haml = 1
 
-command! -nargs=0 ConvertMy  :call s:DoHaml()
+command! -nargs=0 ConvertG  :call s:DoHaml()
 
 function! s:DoHaml()
   exe "%!html2haml -e"
@@ -19,7 +19,8 @@ function! s:DoHaml()
     endif
   endif
 
-  exe "e!"
+  write
+  e!
 
   " vim repeat support
   " doesn't work
