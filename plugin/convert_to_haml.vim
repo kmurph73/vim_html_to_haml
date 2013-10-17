@@ -1,10 +1,10 @@
-if exists("g:loaded_convert_to_haml") || &cp || v:version < 700
-  finish
-endif
+"if exists("g:loaded_convert_to_haml") || &cp || v:version < 700
+"  finish
+"endif
+"
+"let g:loaded_convert_to_haml = 1
 
-let g:loaded_convert_to_haml = 1
-
-command! -nargs=0 ConvertToHaml  :call s:DoHaml()
+command! -nargs=0 ConvertMy  :call s:DoHaml()
 
 function! s:DoHaml()
   exe "%!html2haml -e"
@@ -18,6 +18,8 @@ function! s:DoHaml()
       echomsg "Can't rename file without vim-eunuch plugin installed"
     endif
   endif
+
+  exe "e!"
 
   " vim repeat support
   " doesn't work
