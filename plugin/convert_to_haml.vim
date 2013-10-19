@@ -56,8 +56,8 @@ function! s:opfunc(type,...)
   exe "normal kdd"
 endfunction
 
-vnoremap <silent> <Plug>VSurround  :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
-xmap yx   <Plug>VSurround
+vnoremap <silent> <Plug>Vhtml_to_haml  :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
+xmap yx   <Plug>Vhtml_to_haml
 
 " function RunCommandWithStdin taken from
 " http://stackoverflow.com/questions/18432409/can-i-pass-a-string-as-stdin-to-a-system-call-from-vim
