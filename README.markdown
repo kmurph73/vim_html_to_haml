@@ -1,6 +1,6 @@
 Convert your html to haml
 
-if 'erb' is in the filename, it will be gsubbed with 'haml'
+if [vim-eunuch][1] is installed 'erb' is in the filename, it will be gsubbed with 'haml'
 
 Just execute
 
@@ -13,3 +13,5 @@ TODO:
 * vim-repeat support
 * convert multiple files to haml
 * get feedback on code? (first Vim plugin)
+
+[1]: https://github.com/tpope/vim-eunuch
