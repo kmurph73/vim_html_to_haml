@@ -1,4 +1,5 @@
 "if exists("g:loaded_convert_to_haml") || &cp || v:version < 700
+"
 "  finish
 "endif
 "
@@ -27,8 +28,9 @@ function! s:DoHaml()
   " silent! call repeat#set("\<Plug>DoHaml")
 endfunction
 
+" function jacked from
+" http://stackoverflow.com/a/6271254/548170
 function! s:Get_visual_selection()
-  " Why is this not a built-in Vim script function?!
   let [lnum1, col1] = getpos("'<")[1:2]
   let [lnum2, col2] = getpos("'>")[1:2]
   let lines = getline(lnum1, lnum2)
@@ -47,13 +49,14 @@ endfunction
 
 function! s:opfunc(type,...)
   let s:Fn = function("s:Get_visual_selection")
-  let s:bah = call(s:Fn, [])
-  let s:yar = system('html2haml -e -s', s:bah)
-  let s:how = "normal o".s:yar"\<Esc>"
-  let s:Fn = function("s:Strip")
-  let s:why = call(s:Fn,[s:how])
-  exe s:why
-  exe "normal kdd"
+  let s:visual_selection = call(s:Fn, [])
+  let s:hamlized = system('html2haml -e -s', s:visual_selection)
+  normal gvx
+  let @x = s:hamlized
+  "let s:insert_cmd = "normal! i".s:hamlized"\<Esc>"
+  "let s:stripped_cmd = call(function("s:Strip"),[s:insert_cmd])
+  "exe stripped_cmd
+  normal "xp
 endfunction
 
 vnoremap <silent> <Plug>Vhtml_to_haml  :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
