@@ -39,6 +39,11 @@ function! s:Get_visual_selection()
   return join(lines, "\n")
 endfunction
 
+function! s:Last_line_is_selected()
+  let s:lnum = getpos("'>")[1]
+  return s:lnum == (line("$") + 1)
+endfunction
+
 function! s:Strip(input_string)
     return substitute(a:input_string, '^\s*\(.\{-}\)\n\s*$', '\1', '')
 endfunction
@@ -53,10 +58,11 @@ function! s:opfunc(type,...)
   let s:hamlized = system('html2haml -e -s', s:visual_selection)
   normal gvx
   let @x = s:hamlized
-  "let s:insert_cmd = "normal! i".s:hamlized"\<Esc>"
-  "let s:stripped_cmd = call(function("s:Strip"),[s:insert_cmd])
-  "exe stripped_cmd
-  normal "xp
+  if s:Last_line_is_selected()
+    normal "xp
+  else
+    normal "xP
+  endif
 endfunction
 
 vnoremap <silent> <Plug>Vhtml_to_haml  :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
