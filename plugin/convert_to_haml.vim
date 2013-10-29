@@ -21,11 +21,8 @@ function! s:DoHaml()
   endif
 
   write
-  e!
 
-  " vim repeat support
-  " doesn't work
-  " silent! call repeat#set("\<Plug>DoHaml")
+  silent! call repeat#set("\<Plug>Nhtml_to_haml", v:count)
 endfunction
 
 " function jacked from
@@ -63,10 +60,15 @@ function! s:opfunc(type,...)
   else
     normal "xP
   endif
+
+  echom v:count
+  silent! call repeat#set("\<Plug>Vhtml_to_haml()")
 endfunction
 
+nnoremap <silent> <Plug>Nhtml_to_haml  :<C-U>call <SID>DoHaml()<CR>
 vnoremap <silent> <Plug>Vhtml_to_haml  :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
-xmap <c-v>   <Plug>Vhtml_to_haml
+xmap <leader>x   <Plug>Vhtml_to_haml
+nmap <leader>t   <Plug>Nhtml_to_haml
 
 " function RunCommandWithStdin taken from
 " http://stackoverflow.com/questions/18432409/can-i-pass-a-string-as-stdin-to-a-system-call-from-vim
