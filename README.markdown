@@ -12,7 +12,7 @@ while on the buffer you want to convert to haml.
 
 In visual mode, you can convert the current selection to haml by hitting
 
-    <c-v>
+    <c-g>
 
 TODO:
 
