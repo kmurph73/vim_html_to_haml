@@ -5,7 +5,8 @@
 "
 "let g:loaded_convert_to_haml = 1
 
-command! -nargs=0 ConvertY  :call s:DoHaml()
+"command! -nargs=0 ConvertY  :call s:opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)
+command! -range -nargs=0 Html2Haml  :call s:opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)
 
 function! s:DoHaml()
   exe "%!html2haml -e"
@@ -36,6 +37,12 @@ function! s:Get_visual_selection()
   return join(lines, "\n")
 endfunction
 
+function! s:WriteToNewBuffer(file_name, file_type, file_path)
+  execute 'rightbelow vsplit ' . a:file_name
+  execute 'setlocal filetype=' . a:file_type
+  execute 'setlocal buftype=nowrite'
+endfunction
+
 function! s:Last_line_is_selected()
   let s:lnum = getpos("'>")[1]
   return s:lnum == (line("$") + 1)
@@ -49,11 +56,12 @@ function! s:CheckMode()
   echom mode()
 endfunction
 
-function! s:opfunc(type,...)
+function! s:opfunc(type,vis)
   let s:Fn = function("s:Get_visual_selection")
-  let s:visual_selection = call(s:Fn, [])
-  let s:hamlized = system('html2haml -e -s', s:visual_selection)
-  normal gvx
+  let s:selection = call(s:Fn, [])
+  let s:hamlized = system('cd `rbenv root` && html2haml -e -s', s:selection)
+  call s:WriteToNewBuffer("haml_equivalent", 'haml', '/tmp/file.haml')
+  "normal gvx
   let @x = s:hamlized
   if s:Last_line_is_selected()
     normal "xp
@@ -65,9 +73,9 @@ function! s:opfunc(type,...)
   "silent! call repeat#set("\<Plug>Vhtml_to_haml()")
 endfunction
 
-nnoremap <silent> <Plug>Nhtml_to_haml  :<C-U>call <SID>DoHaml()<CR>
-vnoremap <silent> <Plug>Vhtml_to_haml  :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
-xmap <c-g>   <Plug>Vhtml_to_haml
+"nnoremap <silent> <Plug>Nhtml_to_haml  :<C-U>call <SID>DoHaml()<CR>
+"vnoremap <silent> <Plug>Vhtml_to_haml  :<C-U>call <SID>opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
+"xmap <c-g>   <Plug>Vhtml_to_haml
 "nmap <leader>t   <Plug>Nhtml_to_haml
 
 " function RunCommandWithStdin taken from
