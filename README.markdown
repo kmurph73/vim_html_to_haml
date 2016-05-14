@@ -2,7 +2,7 @@ Convert a selection of html to haml.  Only works with rbenv *right now*
 
 Just select the html you'd like to convert and run
 
-`'<,'>Html2Haml`
+`:'<,'>Html2Haml`
 
 and it will open the converted html in a new buffer for your convenience.
 
