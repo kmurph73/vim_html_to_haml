@@ -5,8 +5,12 @@
 "
 "let g:loaded_convert_to_haml = 1
 
+<<<<<<< HEAD
 "command! -nargs=0 ConvertY  :call s:opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)
 command! -range -nargs=0 Html2Haml  :call s:opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)
+=======
+command! -nargs=0 Html2Haml  :call s:DoHaml()
+>>>>>>> c2fce1d4648c2fd166d8a2bbc8612a9937dcc368
 
 function! s:DoHaml()
   exe "%!html2haml -e"
