@@ -6,7 +6,7 @@ make sure the html2haml gem is installed and the 'html2haml' binary in your curr
 
 Just execute
 
-    :ConvertToHaml
+    :Html2Haml
 
 while on the buffer you want to convert to haml.
 

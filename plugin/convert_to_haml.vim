@@ -5,7 +5,7 @@
 "
 "let g:loaded_convert_to_haml = 1
 
-command! -nargs=0 ConvertY  :call s:DoHaml()
+command! -nargs=0 Html2Haml  :call s:DoHaml()
 
 function! s:DoHaml()
   exe "%!html2haml -e"
