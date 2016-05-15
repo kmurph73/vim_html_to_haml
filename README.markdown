@@ -11,3 +11,5 @@ Working on making it unnecessary to have to select text to convert it.
 And also to have rbenv installed... first Vim plugin so it's slow going.  
 
 Help and/or feedback is appreciated.
+
+<video style='width:100%' autoplay loop src="https://cdn.streamable.com/video/mp4/arp6.mp4"></video>
