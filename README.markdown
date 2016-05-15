@@ -1,6 +1,6 @@
 Convert a selection of html to haml.  Only works with rbenv *right now*
 
-Demo: https://streamable.com/arp6
+Demo: <a href='https://streamable.com/arp6' target='_blank'>https://streamable.com/arp6</a>
 
 Just select the html you'd like to convert and run
 
