@@ -14,5 +14,5 @@ Help and/or feedback is appreciated.
 
 Demo
 ------------
-<img src='nownow.mov.gif' style='height:300px'/>
+<img src='omgcmon.mov.gif' style='height:300px'/>
 
