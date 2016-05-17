@@ -62,7 +62,6 @@ function! s:opfunc(type,vis)
   let s:Fn = function("s:Get_visual_selection")
   let s:selection = call(s:Fn, [])
   let s:html2haml = system('html2haml -h')
-  let s:rbenv = system('rbenv -h')
 
   " check if html2haml is in current path
   " if not, check for rbenv then do some crap to get rbenv loaded
@@ -70,7 +69,7 @@ function! s:opfunc(type,vis)
 
   if match(s:html2haml, 'Usage') >= 0
     let s:hamlized = system('html2haml -e -s', s:selection)
-  elseif match(s:rbenv, 'Usage') >= 0
+  elseif match(system('rbenv -h'), 'Usage') >= 0
     echom 'elseif'
     let s:hamlized = system('cd `rbenv root` && html2haml -e -s', s:selection)
   endif
