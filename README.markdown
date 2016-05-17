@@ -1,6 +1,6 @@
 Convert a selection of html to haml.  
 
-***Only works with rbenv right now*** - I'm working on fixing this. 
+***Not sure if it works with RVM, but it does work with rbenv and source-installed Ruby*** - PR's or tips welcome
 
 Make sure you have the `html2haml` gem installed on your default rbenv Ruby.
 

@@ -6,8 +6,10 @@
 "let g:loaded_convert_to_haml = 1
 
 "command! -nargs=0 ConvertY  :call s:opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)
-command! -range -nargs=0 Html2Haml  :call s:opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)
+command! -range -nargs=0 Html2Haml :call s:opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)
 
+" function no longer used ... it converted the current file to haml and changed the filename from .erb to .haml
+" keeping it around for now
 function! s:DoHaml()
   exe "%!html2haml -e"
 
@@ -59,7 +61,20 @@ endfunction
 function! s:opfunc(type,vis)
   let s:Fn = function("s:Get_visual_selection")
   let s:selection = call(s:Fn, [])
-  let s:hamlized = system('cd `rbenv root` && html2haml -e -s', s:selection)
+  let s:html2haml = system('html2haml -h')
+  let s:rbenv = system('rbenv -h')
+
+  " check if html2haml is in current path
+  " if not, check for rbenv then do some crap to get rbenv loaded
+  "echom 'Usage: ' . match(s:html2haml, 'Usage')
+
+  if match(s:html2haml, 'Usage') >= 0
+    let s:hamlized = system('html2haml -e -s', s:selection)
+  elseif match(s:rbenv, 'Usage') >= 0
+    echom 'elseif'
+    let s:hamlized = system('cd `rbenv root` && html2haml -e -s', s:selection)
+  endif
+
   call s:WriteToNewBuffer("haml_equivalent", 'haml', '/tmp/file.haml')
   "normal gvx
   let @x = s:hamlized
